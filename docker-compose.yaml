@@ -12,7 +12,7 @@ services:
     build: .
     ports:
       - 4000:3000
-    enviroment:
+    environment:
       PORT: 3000
       MONGODB_URI: mongodb://mongo_db:27017
       DB_NAME: my_db
